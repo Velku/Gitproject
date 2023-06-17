@@ -1,0 +1,14 @@
+public class stringlength {
+
+	public static void main(String[] args) {
+		
+		String name = "velkumar";
+		char[] arrays = name.toCharArray();
+		int length = 0;
+		for (char c : arrays) {
+			length++;
+		}
+		System.out.print(length);
+		}
+
+}
